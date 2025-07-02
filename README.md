@@ -4,6 +4,8 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 
 ## Ultrasonic A02YYUW sensor
 
+### Features
+
 - Waterproof and dustproof (IP67)
 - Operating range: 3.3~5V
 - Average current rate: 8mA
@@ -18,6 +20,10 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 - Storage temperature: -25~80°C
 - Integrated signal processing
 - Band rate: 9600bit/s
+
+### Dimension
+
+![A02YYUW Sensor Dimension](images/A02YYUW_Dimension.png)
 
 ## Features
 - Publishes distance data from the sensor
