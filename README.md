@@ -25,6 +25,17 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 
 ![A02YYUW Sensor Dimension](images/A02YYUW_Dimension.png)
 
+### Pinout
+
+![A02YYUW Sensor Pinout](images/A02YYUW_pinout.png)
+
+|Label  |Name   |Description        |
+|-------|-------|-------------------|
+|1      |VCC    |Power              |   
+|2      |GND    |Ground             |
+|3      |RX     |Processes Vales    |
+|4      |TX     |UART Output        |
+
 ## Features
 - Publishes distance data from the sensor
 - Configurable sensor pins
