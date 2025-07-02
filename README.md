@@ -1,6 +1,6 @@
-# Ultrasonic A02YYUW sensor configuration using the TTL convertor
+# Ultrasonic A02YYUW sensor configuration using FT232-AZ USB to TTL Adapter
 
-This package connects an ultrasonic sensor using the TTL convertor and provide the data in ROS2 topic. 
+This package connects A02YYUW sensor using FT232-AZ USB to TTL Adapter and provide the data in ROS2 topic. 
 
 ## Ultrasonic A02YYUW sensor
 
@@ -63,20 +63,24 @@ For more information about the adapter, please refer to [FT232-AZ USB to TTL Ser
 |1      |VCC    |VCC    |
 |2      |GND    |GND    |
 |3      |RX     |TX     |
-|4      |TX     |RX     |    
+|4      |TX     |RX     |
 
-
-
-## Features
-- Publishes distance data from the sensor
-- Configurable sensor pins
-- Works with FT232H or microcontroller interface
-
-## Usage
-
+## Building
+Clone this repositroy in your ROS2 workspace:
 ```bash
-ros2 run ultrasonic_ros2 ultrasonic_node
-``` 
+git clone https://github.com/SARTARUN/ultrasonic_a02yyuw
+```
+Then build the package and source the workspace:
+```bash
+colcon build
+source install/local_setub.bash
+```
+
+## Running the library
+To the launch the package write down the command in terminal:
+```bash
+ros2 launch ultrasonic_a02yyuw ultrasonic_a02yyuw.launch.py
+```
 
 <!--## References
 
