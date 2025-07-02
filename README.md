@@ -30,11 +30,13 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 ![A02YYUW Sensor Pinout](images/A02YYUW_pinout.png)
 
 |Label  |Name   |Description        |
-|-------|-------|-------------------|
+|------:|:-----:|:------------------|
 |1      |VCC    |Power              |   
 |2      |GND    |Ground             |
 |3      |RX     |Processes Vales    |
 |4      |TX     |UART Output        |
+
+For more information about the sensor, please refer to official wiki page for [A02YYUW](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311) sensor on DFRobot website. 
 
 ## Features
 - Publishes distance data from the sensor
@@ -45,3 +47,8 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 
 ```bash
 ros2 run ultrasonic_ros2 ultrasonic_node
+``` 
+
+## References
+
+1. [Ultrasonic A02YYUW Sensor Datasheet](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311)
