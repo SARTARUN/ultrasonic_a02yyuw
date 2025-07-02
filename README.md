@@ -22,11 +22,9 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 - Band rate: 9600bit/s
 
 ### Dimension
-
 ![A02YYUW Sensor Dimension](images/A02YYUW_Dimension.png)
 
 ### Pinout
-
 ![A02YYUW Sensor Pinout](images/A02YYUW_pinout.png)
 
 |Label  |Name   |Description        |
@@ -36,7 +34,29 @@ This package connects an ultrasonic sensor using the TTL convertor and provide t
 |3      |RX     |Processes Vales    |
 |4      |TX     |UART Output        |
 
-For more information about the sensor, please refer to official wiki page for [A02YYUW](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311) sensor on DFRobot website. 
+For more information about the sensor, please refer to official wiki page for [A02YYUW Sensor](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311) on DFRobot website. 
+
+## FT232-AZ USB to TTL Adapter
+
+### Features
+
+- Operating range: 3.3V or 5V (can be set using the jumper on the board)
+- Average current rate: 24mA
+- Operating temperature: -40~85°C
+- Standby temperature: -65~150°C
+- Interface: UART
+- Chip: FT232-AZ
+- Data connection: Mini-USB-B cable
+
+### Dimension
+![TTL Adapter Dimension](images/TTLConverter_Dimension.png)
+
+### Pinout
+![TTL Adapter Pinout](images/TTLConverter_pinout_2.png)
+
+For more information about the adapter, please refer to [FT232-AZ USB to TTL Serial Adapter](https://www.az-delivery.de/en/products/ftdi-adapter-ft232rl?variant=36542809426) on AZ-Delivery website. 
+
+
 
 ## Features
 - Publishes distance data from the sensor
@@ -49,6 +69,8 @@ For more information about the sensor, please refer to official wiki page for [A
 ros2 run ultrasonic_ros2 ultrasonic_node
 ``` 
 
-## References
+<!--## References
 
 1. [Ultrasonic A02YYUW Sensor Datasheet](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311)
+
+-->
