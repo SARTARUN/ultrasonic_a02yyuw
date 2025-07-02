@@ -5,7 +5,6 @@ This package connects A02YYUW sensor using FT232-AZ USB to TTL Adapter and provi
 ## Ultrasonic A02YYUW sensor
 
 ### Features
-
 - Waterproof and dustproof (IP67)
 - Operating range: 3.3~5V
 - Average current rate: 8mA
@@ -39,7 +38,6 @@ For more information about the sensor, please refer to official wiki page for [A
 ## FT232-AZ USB to TTL Adapter
 
 ### Features
-
 - Operating range: 3.3V or 5V (can be set using the jumper on the board)
 - Average current rate: 24mA
 - Operating temperature: -40~85°C
@@ -57,7 +55,6 @@ For more information about the sensor, please refer to official wiki page for [A
 For more information about the adapter, please refer to [FT232-AZ USB to TTL Serial Adapter](https://www.az-delivery.de/en/products/ftdi-adapter-ft232rl?variant=36542809426) on AZ-Delivery website. 
 
 ## Connection between A02YYUW and FT232-AZ USB to TTL Adapter
-
 |Sr. No.|A02YYUW|Adapter|    
 |------:|:-----:|:-----:|
 |1      |VCC    |VCC    |
@@ -81,7 +78,9 @@ To the launch the package write down the command in terminal:
 ```bash
 ros2 launch ultrasonic_a02yyuw ultrasonic_a02yyuw.launch.py
 ```
+This command will start the sensor and publish the data in topic. In addition, it will run the rviz. 
 
+This also include the sensor link connected with the base_link which can easily editable from the node file. 
 <!--## References
 
 1. [Ultrasonic A02YYUW Sensor Datasheet](https://wiki.dfrobot.com/_A02YYUW_Waterproof_Ultrasonic_Sensor_SKU_SEN0311)
