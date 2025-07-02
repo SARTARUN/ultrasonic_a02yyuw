@@ -56,6 +56,15 @@ For more information about the sensor, please refer to official wiki page for [A
 
 For more information about the adapter, please refer to [FT232-AZ USB to TTL Serial Adapter](https://www.az-delivery.de/en/products/ftdi-adapter-ft232rl?variant=36542809426) on AZ-Delivery website. 
 
+## Connection between A02YYUW and FT232-AZ USB to TTL Adapter
+
+|Sr. No.|A02YYUW|Adapter|    
+|------:|:-----:|:-----:|
+|1      |VCC    |VCC    |
+|2      |GND    |GND    |
+|3      |RX     |TX     |
+|4      |TX     |RX     |    
+
 
 
 ## Features
